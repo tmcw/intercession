@@ -1,0 +1,351 @@
+/*
+ * colors from http://www.flickr.com/photos/tmcw/5336583817/in/photostream/
+ *
+ * border: #B8D3D3
+ *
+ * */
+
+p, li {
+  font: 15px/30px 'Georgia', Times, 'Times New Roman', serif;
+}
+
+small {
+  font: 11px 'Georgia', Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+}
+
+body {
+  -webkit-font-smoothing:antialiased;
+  color:#516066;
+  width:640px;
+  margin:20px auto;
+}
+
+br {
+    line-height:10em;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        width:300px;
+        margin:0 10px;
+    }
+
+    img {
+        max-width:100% !important;
+        height:auto;
+    }
+
+    div.shutter-300 {
+      overflow:hidden;
+      height:100px;
+      margin:20px 0;
+    }
+
+    header {
+        margin:0px;
+    }
+
+    header h1 {
+        display:none;
+    }
+
+    header ul.navigation {
+        width:300px;
+        margin:0;
+        padding:0;
+    }
+
+    header ul.navigation li, header ul.navigation li a {
+        margin:0 10px 0 0 !important;
+        display:inline;
+        padding:0 !important;
+        line-height:20px;
+    }
+}
+
+ol {
+  margin-left:30px;
+}
+
+header {
+  display:block;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+ul.navigation {
+  float:right;
+  list-style:none;
+}
+
+ul.navigation li {
+  display:inline-block;
+  margin-left:10px;
+  /* abolish when IE7 is gone. */
+  zoom:1;
+  *display:inline;
+}
+
+ul.navigation li a, h1.site-name, h2, h3, .post-footer, footer {
+  font: normal 12px/40px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+ul.navigation li a.active {
+  text-decoration:underline;
+  color:#334051;
+}
+
+div.wrapper ul {
+  font: 13px/20px Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  margin:10px 20px;
+}
+
+div.wrapper ol li ul {
+  margin:5px 20px;
+}
+
+h1, h2 {
+  color:#34404D;
+  font-weight:bold;
+}
+
+h1 {
+  font: normal 35px/40px 'Lora', serif;
+}
+
+h2 {
+  font: normal 20px/40px 'Lora', serif;
+  margin:10px 0;
+}
+
+h3 {
+  font: normal 18px/30px 'Lora', serif;
+  margin:10px 0;
+}
+
+em {
+  font-style:italic;
+}
+
+h1.site-name span.name {
+  color:#333;
+}
+
+h1.site-name a:hover span.name {
+  color:#000;
+}
+
+h1.site-name a:hover {
+  text-decoration:none;
+}
+
+a {
+  color:#00588F;
+  text-decoration:none;
+  transition:border 100ms ease-in;
+}
+
+.body a {
+  border-bottom:1px solid #D5D5E9;
+}
+
+.body a:hover {
+  border-bottom:1px solid #31356F;
+}
+
+p a, div.content ul li a {
+}
+
+p a:hover, div.content ul li a:hover {
+  background: #FFF9C9;
+}
+
+a:hover {
+  color:#2F314B;
+}
+
+footer, .post-footer {
+  color:#D5D9E7;
+}
+
+footer {
+  padding-bottom:50px;
+}
+
+div.post:first-child {
+  background:transparent;
+  padding-top:0;
+  margin:30px 0;
+}
+
+div.post {
+  margin:29px 0 30px 0;
+  padding-top:10px;
+}
+
+div.post p {
+  margin:10px 0;
+}
+
+.inset-right {
+  float:right;
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+div.shutter-300 {
+  overflow:hidden;
+  height:300px;
+  margin:20px 0;
+}
+
+div.shutter-300 img {
+  margin-top:-50px;
+}
+
+.white-on-white {
+  border:1px solid #000;
+  margin:-1px;
+}
+
+img {
+    max-width:640px;
+}
+
+span.image-credit {
+  float:right;
+  margin:0 0 10px 10px;
+  font-size:12px;
+}
+
+span.image-credit:before {
+  content: '↑';
+  margin-right:5px;
+}
+
+div.crop-200-150 {
+  width:200px;
+  height:150px;
+  overflow:hidden;
+  display:inline;
+  margin:0 !important;
+}
+
+div.image-cube div img {
+  display:block;
+}
+
+div.image-cube {
+  float:left;
+}
+
+div.image-cube div {
+  margin:10px 0;
+  background:#222;
+  float:left;
+}
+
+div.image-cube div.half {
+  width:315px;
+}
+
+div.image-cube div:first-child {
+  margin-right:10px;
+}
+div.image-cube div {
+}
+
+div.image-cube div a { }
+
+div.image-cube div a span {
+  color:#fff;
+  padding:0 10px;
+  font: 12px/20px 'Helvetica Neue', helvetica, sans-serif;
+}
+
+div.image-cube a:hover {
+  text-decoration:none;
+}
+
+p code, li code,g.highlight, pre code {
+  font: 13px/20px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+.highlight, blockquote {
+  overflow-x:auto;
+  padding:9px 10px;
+  border:1px solid #ccc;
+}
+
+div.post blockquote p {
+  margin:0;
+}
+
+div.link-block {
+  font: bold 16px/40px 'Helvetica Neue', helvetica, sans-serif;
+  background:#f0f0f0;
+  padding:5px;
+  text-align:center;
+}
+
+div.link-block a {
+  text-decoration:underline;
+}
+
+/* TODO: get real */
+code.has-jax {
+  font: inherit;
+  font-size: 100%;
+  background: inherit;
+  border: inherit;
+}
+
+table.equitable {
+  width:640px;
+}
+
+table.equitable tr td:first-child {
+  border-right:1px solid #3A7680;
+  width:319px;
+}
+
+/* introduced with gif polyrythms */
+table.data-table {
+  font:13px/15px 'Helvetica Neue', sans-serif;
+  border-collapse:collapse;
+}
+
+table.data-table td,
+table.data-table th {
+  border-collapse:collapse;
+  padding:5px;
+  border-bottom:1px solid #f2f2f2;
+}
+
+table.data-table th {
+  font-weight:normal;
+}
+
+iframe {
+  border:0;
+}
+
+.archive-images {
+  line-height:0;
+}
+
+.archive-images img {
+  margin:3px;
+}
+
+div.four-320 img {
+  width:160px;
+  height:160px;
+  display:inline;
+}
+
+.addendum {
+  font-size:small;
+  padding:5px 10px;
+  background:#eee;
+}
